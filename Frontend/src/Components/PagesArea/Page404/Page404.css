@@ -1,0 +1,21 @@
+.Page404 {
+    text-align: center;
+    padding: 80px 20px;
+    color: #8b949e;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.Page404 h2 {
+    margin: 0 0 8px 0;
+    font-size: 3rem;
+    color: #f0f6fc;
+}
+
+.Page404 a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.Page404 a:hover {
+    text-decoration: underline;
+}

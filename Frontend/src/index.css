@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #090d16;
+    box-sizing: border-box;
+    color-scheme: dark;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+[role="button"]:focus-visible {
+    outline: 2px solid #58a6ff;
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
